@@ -53,6 +53,12 @@ main {
     bottom: 25%;
     cursor: pointer;
     text-decoration: underline;
+    transition: 1s ease-in;
+}
+
+.showAnswerBtn:hover {
+    transform: rotateY(360deg);
+    color: red;
 }
 
 ul {
