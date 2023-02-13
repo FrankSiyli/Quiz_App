@@ -7,11 +7,18 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h1 {
+header {
+    z-index: 1;
+    height: 10vh;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(7, 68, 15);
+}
+
+h1 {
     color: white;
     padding: 5%;
 }
@@ -21,7 +28,7 @@ main {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-   
+   background-color: rgba(0, 0, 0, 0.104);
 }
 
 .card {
@@ -35,7 +42,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin: 5% 0%;
 }
 
 .card p {
