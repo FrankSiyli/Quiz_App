@@ -25,7 +25,11 @@ section .bookmarkBtn {
     bottom: 25%;
     cursor: pointer;
     text-decoration: underline;
-    transition: 1s ease-in-out;
+    transition: 0.25s ease-in-out;
+  }
+
+  .showAnswerBtn:hover {
+    transform: scale(110%);
   }
 
   ul {
@@ -45,8 +49,18 @@ section .bookmarkBtn {
     color: white;
     padding: 2%;
     background-color: var(--background-color);
+    transition: 0.25s ease-in-out;
+  }
+
+  footer img {
+    border-radius: 5px;
+  }
+
+  footer img:hover  {
+    z-index: 5;
+    transform: scale(110%);
+
+    box-shadow: var(--box-shadow);
   }
   
-  .showAnswerBtn:hover {
-    transform: rotateY(360deg);
-  }
+  

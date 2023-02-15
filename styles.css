@@ -4,14 +4,8 @@
 @import "/components/header.css";
 @import "/components/backgroundimage.css";
 @import "/components/footer.css";
-@import "profil_card.css";
+@import "/components/profil_card.css";
+@import "/components/main.css"
 
 
-main {
-  margin-top: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
 
