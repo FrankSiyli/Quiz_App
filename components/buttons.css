@@ -2,42 +2,52 @@
   position: absolute;
   border: none;
   background: none;
-  top: .5rem;
+  top: 0.5rem;
   right: 1rem;
- }
+}
 
 .bookmark {
-    position: relative ;
-    width:2.5rem; 
-    height:auto; 
-    background: none;
-    cursor: pointer;
-    }
+  position: relative;
+  width: 2.5rem;
+  height: auto;
+  background: none;
+  cursor: pointer;
+}
 
-  .bookmark--active {
-    fill:  rgb(255, 0, 0);
-    transition: 1s, ease-in-out, 1s;
-   }
+.bookmark--active {
+  fill: rgb(255, 0, 0);
+}
 
-  .answerButton {
-
-    font-size: 1.5rem;
-    background-color: var(--background-color);
-    border: none;
-    color: rgb(4, 251, 70);
-    cursor: pointer;
-    text-decoration: underline;
-    transition: 0.25s ease-in-out;
-    border-radius: 5px;
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
   }
-
-  .answerButton:hover {
-    transform: scale(102%);
-    color: red;
+  25% {
+    transform: scale(0.5);
   }
+  100% {
+    transform: scale(1);
+  }
+}
 
-  
+.newQ {
+  height: 3rem;
+  font-size: 2rem;
+  background-color: rgba(125, 174, 144, 1);
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+  margin-bottom: 15vh;
+  color: red;
+  cursor: pointer;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
-  
-  
-  
+.newQ:hover {
+  cursor: pointer;
+}
+
+.newQ:active {
+  transform: scale(0.9);
+  transition: 1s, ease;
+}
