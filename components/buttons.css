@@ -1,70 +1,53 @@
-section .bookmarkBtn {
-    position: relative;
-    top: 1em;
-    right: -40%;
-    background: none;
-    border: none;
-    cursor: pointer;
-    
+.bookmarkButton {
+  position: absolute;
+  border: none;
+  background: none;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+.bookmark {
+  position: relative;
+  width: 2.5rem;
+  height: auto;
+  background: none;
+  cursor: pointer;
+}
+
+.bookmark--active {
+  fill: rgb(255, 0, 0);
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
   }
-
-  .bookmarkBtn--active {
-    fill: rgb(255, 0, 0);
+  25% {
+    transform: scale(0.5);
   }
-
-
- 
-
-
-  .showAnswerBtn {
-    position: absolute;
-    background-color: var(--background-color);
-    box-shadow: 0px 0px 8px 3px black;
-    border-radius: 5px;
-    border: none;
-    color: red;
-    font-size: 25px;
-    bottom: 25%;
-    cursor: pointer;
-    text-decoration: underline;
-    transition: 0.25s ease-in-out;
+  100% {
+    transform: scale(1);
   }
+}
 
-  .showAnswerBtn:hover {
-    transform: scale(110%);
-  }
+.newQ {
+  height: 3rem;
+  font-size: 2rem;
+  background-color: rgba(125, 174, 144, 1);
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+  margin-bottom: 15vh;
+  color: red;
+  cursor: pointer;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
-  ul {
-    list-style: none;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    box-shadow: var(--box-shadow);
-    margin: 7% 7%;
-    border-radius: 5px;
-    color: white;
-    padding: 2%;
-    background-color: var(--background-color);
-    transition: 0.25s ease-in-out;
-  }
+.newQ:hover {
+  cursor: pointer;
+}
 
-  footer img {
-    border-radius: 5px;
-    transition: 0.25s ease-in-out;
-
-  }
-
-  footer img:hover  {
-    z-index: 5;
-    transform: scale(110%);
-    transition: 0.25s ease-in-out;
-    box-shadow: var(--box-shadow);
-  }
-  
-  
+.newQ:active {
+  transform: scale(0.9);
+  transition: 1s, ease;
+}
