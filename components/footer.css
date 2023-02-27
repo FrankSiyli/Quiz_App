@@ -7,7 +7,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--background-color);
     opacity: 0.9;
   }
   
@@ -18,6 +17,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin: 1px;
   }
   
   footer img {
@@ -30,7 +30,13 @@ footer {
 
   footer img:hover  {
     z-index: 5;
-    transform: scale(102%);
     transition: 0.15s ease-in-out;
     box-shadow: var(--box-shadow);
+    transform: translateY(-2px);
+  }
+  footer img:active  {
+    z-index: 5;
+    transition: 0.15s ease-in-out;
+    box-shadow: var(--box-shadow);
+    transform: scale(0.9);
   }

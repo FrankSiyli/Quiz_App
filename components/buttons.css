@@ -12,10 +12,12 @@
   height: auto;
   background: none;
   cursor: pointer;
+  transition: 1s, ease, 1s;
 }
 
 .bookmark--active {
   fill: rgb(255, 0, 0);
+  animation: 600ms pulsate;
 }
 
 @keyframes pulsate {
@@ -23,7 +25,7 @@
     transform: scale(1);
   }
   25% {
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
   100% {
     transform: scale(1);
@@ -31,12 +33,13 @@
 }
 
 .newQ {
+  z-index: 5;
   height: 3rem;
   font-size: 2rem;
-  background: linear-gradient(145deg, rgba(125, 174, 144, 1), rgb(68, 114, 86)) ;
+  background: linear-gradient(5deg, rgba(125, 174, 144, 1), rgb(68, 114, 86)) ;
   box-shadow: var(--box-shadow);
   border-radius: 6px;
-  margin-bottom: 15vh;
+  margin-bottom: 20vh;
   color: rgb(61, 27, 27);
   cursor: pointer;
   border: none;

@@ -5,8 +5,8 @@ const newQButton = document.querySelector('[data-js="newQ"]');
 function bookmarkButtonClick(event) {
   const bookmark = event.target;
   bookmark.classList.toggle("bookmark--active");
-  bookmark.style.transition = "1s, ease, 1s";
-  bookmark.style.animation = "600ms pulsate";
+  /* bookmark.style.transition = "1s, ease, 1s";
+  bookmark.style.animation = "600ms pulsate"; */
   onclick = event.stopPropagation();
 }
 
@@ -19,7 +19,4 @@ card.addEventListener("click", () => {
 });
 
 
-/* function renderBookmark(bookmarkButton) {
-  bookmarkButton.innerHTML = "";
-}
-  renderBookmark(0); */
+

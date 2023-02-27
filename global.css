@@ -11,6 +11,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    min-height: 100vh;
+    background: linear-gradient(145deg,#000000, #5daaaa);
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
