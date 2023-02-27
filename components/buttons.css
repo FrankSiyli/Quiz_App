@@ -33,11 +33,11 @@
 .newQ {
   height: 3rem;
   font-size: 2rem;
-  background-color: rgba(125, 174, 144, 1);
+  background: linear-gradient(145deg, rgba(125, 174, 144, 1), rgb(68, 114, 86)) ;
   box-shadow: var(--box-shadow);
   border-radius: 6px;
   margin-bottom: 15vh;
-  color: red;
+  color: rgb(61, 27, 27);
   cursor: pointer;
   border: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
