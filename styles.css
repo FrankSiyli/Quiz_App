@@ -1,11 +1,9 @@
 @import "/global.css";
-@import "/components/buttons.css";
-@import "/components/card.css";
-@import "/components/header.css";
-@import "/components/backgroundimage.css";
-@import "/components/footer.css";
-@import "/components/profil_card.css";
-@import "/components/main.css"
-
-
-
+@import "/components/Buttons/BookmarkButton/BookmarkButton.css";
+@import "/components/Buttons/NewQuestionButton/NewQuestionButton.css";
+@import "/components/Buttons/FooterButton/FooterButton.css";
+@import "/components/Card/Card.css";
+@import "/components/Header/Header.css";
+@import "/components/Footer/Footer.css";
+@import "/components/Profile/Profile.css";
+@import "/components/Main/Main.css";

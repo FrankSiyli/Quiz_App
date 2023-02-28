@@ -1,0 +1,20 @@
+.footer-button {
+  width: 99%;
+  background: linear-gradient(145deg, rgba(125, 174, 144, 1), rgb(68, 114, 86));
+  height: 3em;
+  border-radius: 5px;
+  transition: 0.25s ease-in-out;
+}
+
+.footer-button:hover {
+  z-index: 5;
+  transition: 0.15s ease-in-out;
+  box-shadow: var(--box-shadow);
+  transform: translateY(-2px);
+}
+.footer-button:active {
+  z-index: 5;
+  transition: 0.15s ease-in-out;
+  box-shadow: var(--box-shadow);
+  transform: scale(0.9);
+}

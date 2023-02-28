@@ -1,0 +1,27 @@
+.new-question-button {
+  z-index: 5;
+  height: 3rem;
+  font-size: 2rem;
+  background: linear-gradient(
+    145deg,
+    rgba(125, 174, 144, 1),
+    rgba(68, 114, 86, 0.657)
+  );
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+  margin-bottom: 20vh;
+  color: rgb(80, 50, 50);
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: 1s, ease;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.new-question-button:hover {
+  cursor: pointer;
+}
+
+.new-question-button:active {
+  transform: scale(0.9);
+}
