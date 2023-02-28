@@ -15,7 +15,7 @@
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
-  background: linear-gradient(145deg, rgba(125, 174, 144, 1), #0e371d) ;
+  background: linear-gradient(145deg, rgba(125, 174, 144, 1), #0e371d7b) ;
   box-shadow: var(--box-shadow);
   text-align: center;
   border-radius: 10px;

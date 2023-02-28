@@ -36,7 +36,7 @@
   z-index: 5;
   height: 3rem;
   font-size: 2rem;
-  background: linear-gradient(5deg, rgba(125, 174, 144, 1), rgb(68, 114, 86)) ;
+  background: linear-gradient(145deg, rgba(125, 174, 144, 1), rgba(68, 114, 86, 0.657)) ;
   box-shadow: var(--box-shadow);
   border-radius: 6px;
   margin-bottom: 20vh;
