@@ -40,7 +40,8 @@
   box-shadow: var(--box-shadow);
   border-radius: 6px;
   margin-bottom: 20vh;
-  color: rgb(61, 27, 27);
+  color: rgb(80, 50, 50);
+  font-weight: 700;
   cursor: pointer;
   border: none;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;

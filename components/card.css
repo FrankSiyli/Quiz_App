@@ -3,8 +3,9 @@
   height: 50vh;
   perspective: 500px;
   opacity: 0.95;
-  color: rgb(61, 27, 27);
-margin-bottom: 3rem;
+  color: rgb(80, 50, 50);
+  font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 .cardInner {
